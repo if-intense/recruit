@@ -1072,8 +1072,16 @@ footer .center-me p a {
 @media (max-width: 575.98px) {
   .link-to {
     width:100%;
-    max-width:200px;
+    max-width:120px;
+    top:50px;
   }
+
+  .link-to .mid-career p, .link-to .graduate p {
+    padding: 10px 15px;
+    text-align: center;
+    font-size:8px;
+    color: rgb(255,255,255);
+}
 
   .mid-div .main-content p {
     font-size:1em;
@@ -1105,10 +1113,6 @@ footer .center-me p a {
     z-index: 999;
   }
 
-  .link-to .mid-career p, .link-to .graduate p {
-    padding:20px;
-    font-size:12px;
-  }
 
   .midd-div .main-content {
     padding: 5vh 10px;
