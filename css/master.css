@@ -1204,7 +1204,11 @@ footer .center-me p a {
 
   .sixth-div .section005 {
     padding: 5vh 2vw;
-}
+  }
+
+  .main-content .company-info .company-text {
+    margin:0 20px;
+  }
 
 }
 
@@ -1443,6 +1447,11 @@ footer .center-me p a {
    color: #355cc9;
    border-color: #355cc9;
    text-shadow: none;
+   position: absolute;
+    bottom: 5px;
+    left: 25%;
+    right: 25%;
+}
 }
  .button.return:hover {
    background-color: #355cc9;
