@@ -92,7 +92,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /*position: relative;*/
+  position: relative;
   clip-path: polygon(52% 10vh, 100% 0, 100% 100%, 0 100%, 0 0);
   padding-bottom:20vh;
   padding-top:10vh;
@@ -125,7 +125,7 @@ body {
 }
 
 .first-div {
-  background:url('../img/bg009-1.jpg') no-repeat center center fixed;
+  background:url('../img/bg009-1.jpg') no-repeat center center;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -135,12 +135,12 @@ body {
 
 
 .mid-div {
-  background:url('../img/bg001.png') no-repeat center center fixed;
+  background:url('../img/bg001.png') no-repeat center center;
   /*z-index:4;*/
 }
 
 .midd-div {
-  /*background:url('../img/bg003.png') no-repeat center center fixed;*/
+  /*background:url('../img/bg003.png') no-repeat center center;*/
   /*background: rgb(73,182,226);
 background: linear-gradient(32deg, rgba(73,182,226,1) 0%, rgba(113,140,162,1) 100%);*/
 background: rgb(73,153,226);
@@ -148,32 +148,36 @@ background: linear-gradient(32deg, rgba(73,153,226,1) 0%, rgba(200,223,241,1) 10
 }
 
 .bottom-div {
-  background:url('../img/bg002.png') no-repeat center center fixed;
+  background:url('../img/bg005.png') no-repeat;
+  /*background:blue;*/
+  /*object-fit: cover;*/
+  background-size: cover;
   /*z-index:7;*/
 }
 
 .third-div {
-  background:url('../img/bg005.png') no-repeat center center fixed;
+  background:url('../img/bg002.png') no-repeat center center;
 }
 
 
 .fourth-div {
-  background: url('../img/bg003.png') no-repeat center center fixed;
+  background: url('../img/bg003.png') no-repeat center center;
+  background-size:cover;
 }
 
 .fifth-div {
-  background: url('../img/bg004.png') no-repeat center center fixed;
+  background: url('../img/bg004.png') no-repeat center center;
   background-size: 100%;
 }
 
 .sixth-div {
-  /*background: url('../img/bg006.png') no-repeat center center fixed;*/
+  /*background: url('../img/bg006.png') no-repeat center center;*/
   background: linear-gradient(180deg, rgba(226,226,226,1) 0%, rgba(255,255,255,1) 100%);
   /*padding-bottom:20vh;*/
 }
 
 .seventh-div {
-  background: url('../img/tile-bg.png') no-repeat center center fixed;
+  background: url('../img/tile-bg.png') no-repeat center center;
   /*background-size:100%;*/
 }
 
@@ -1069,6 +1073,11 @@ footer .center-me p a {
 
 
 @media (max-width: 575.98px) {
+  .first-div h4 {
+    font-size:1.25em;
+    padding:20px;
+}
+
   .link-to {
     width:100%;
     max-width:120px;
@@ -1080,7 +1089,7 @@ footer .center-me p a {
     text-align: center;
     font-size:8px;
     color: rgb(255,255,255);
-}
+  }
 
   .mid-div .main-content p {
     font-size:1em;
@@ -1117,7 +1126,7 @@ footer .center-me p a {
     padding: 5vh 10px;
     width: 100%;
     position: relative;
-}
+  }
 
   .midd-div .main-content .philosophy h2 {
     font-size: 36px;
@@ -1186,7 +1195,14 @@ footer .center-me p a {
     padding: 5vh 2vw;
 }
 
+}
 
+
+
+@media only screen
+    and (device-width: 428px)
+    and (device-height: 926px)
+    and (-webkit-device-pixel-ratio: 3) {
 
 }
 
