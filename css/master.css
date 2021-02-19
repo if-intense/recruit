@@ -137,6 +137,10 @@ body {
 .mid-div {
   background:url('../img/bg001.png') no-repeat center center;
   /*z-index:4;*/
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .midd-div {
@@ -441,7 +445,7 @@ footer .center-me p a {
 
 .company-info .scp-strategy p strong {
   font-family: 'PT Sans', sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 
@@ -530,7 +534,7 @@ footer .center-me p a {
   width:calc(100% / 1.6 );
   /*padding:20px;*/
   position:absolute;
-  bottom:-100px;
+  bottom:-140px;
   right:-30px;
   border-right:10px solid rgba(222,58,58,0.6);
   border-bottom:10px solid rgba(222,58,58,0.6);
@@ -1080,14 +1084,14 @@ footer .center-me p a {
 
   .link-to {
     width:100%;
-    max-width:120px;
+    max-width:150px;
     top:50px;
   }
 
   .link-to .mid-career p, .link-to .graduate p {
     padding: 10px 15px;
     text-align: center;
-    font-size:8px;
+    font-size:11px;
     color: rgb(255,255,255);
   }
 
@@ -1101,7 +1105,7 @@ footer .center-me p a {
   }
 
   .social-media {
-    position:fixed;
+    position:absolute;
     top:0px;
     right:0px;
     z-index: 998;
@@ -1195,7 +1199,7 @@ footer .center-me p a {
     align-items: center;
     flex-direction: column;
     padding-bottom:5vh;
-    margin-top:48vh;
+    margin-top:53vh;
   }
 
   .sixth-div .section005 {
