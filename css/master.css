@@ -89,11 +89,10 @@ body {
 .bottom-div, .midd-div, .third-div, .fourth-div, .fifth-div, .sixth-div, .seventh-div, .eighth-div {
   position:relative;
   margin-top:-10vh;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*position: relative;*/
   clip-path: polygon(52% 10vh, 100% 0, 100% 100%, 0 100%, 0 0);
   padding-bottom:20vh;
   padding-top:10vh;
