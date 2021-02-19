@@ -419,11 +419,21 @@ footer .center-me p a {
 }
 
 .midd-div .main-content .credos {
-  text-align: center;
   background:rgba(255,255,255,0.6);
   box-shadow:3px 6px 6px #707070;
   padding:2vh 0;
 }
+
+.midd-div .main-content .credos h3{
+  text-align: center;
+}
+
+.midd-div .main-content .credos p {
+  width:70%;
+  margin:0 auto;
+}
+
+
 /*midd-div*/
 
 
