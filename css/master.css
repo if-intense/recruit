@@ -309,7 +309,7 @@ footer .center-me p a {
 
 .videos-1 h2 {
   padding:3vh 0;
-  font-style: italic;
+  /*font-style: italic;*/
   text-align:center;
 }
 .video-container-top {
@@ -382,7 +382,7 @@ footer .center-me p a {
   font-size:44px;
   font-weight:bold;
   line-height:0.8em;
-  font-style:italic;
+  /*font-style:italic;*/
 }
 
 .midd-div .main-content .philosophy h2 span {
@@ -559,12 +559,14 @@ footer .center-me p a {
 
 .main-content .strength ul {
   list-style-type: none;
+  margin-bottom:5vh;
 }
 
 .main-content .strength ul li {
   font-size:1.5em;
   text-align:center;
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+
 }
 
 .main-content .strength .link-to-video button {
@@ -573,7 +575,7 @@ footer .center-me p a {
 
 
 .main-content .vision {
-  margin:5vh 0 0;
+  margin:2vh 0 0;
   text-align:center;
 }
 .main-content .vision h3{
@@ -1079,19 +1081,19 @@ footer .center-me p a {
 @media (max-width: 575.98px) {
   .first-div h4 {
     font-size:1.25em;
-    padding:20pxm;
+    padding:20px;
 }
 
   .link-to {
     width:100%;
-    max-width:150px;
+    max-width:180px;
     top:50px;
   }
 
   .link-to .mid-career p, .link-to .graduate p {
     padding: 10px 15px;
     text-align: center;
-    font-size:11px;
+    font-size:13px;
     color: rgb(255,255,255);
   }
 
@@ -1194,12 +1196,19 @@ footer .center-me p a {
     font-size:0.8em;
   }
 
+
+
   .main-content .strength {
     /*display: flex;*/
     align-items: center;
     flex-direction: column;
     padding-bottom:5vh;
     margin-top:53vh;
+  }
+
+  .main-content .strength ul li {
+    font-size:1.25em;
+    margin-left:-50px;
   }
 
   .sixth-div .section005 {
