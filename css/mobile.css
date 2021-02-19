@@ -1,0 +1,13 @@
+@media (max-width: 575.98px) {
+
+  /*company information*/
+  .company-info table {
+    padding:10px;
+    font-size:0.8em;
+  }
+
+  .company-info table tr td.title {
+    width:100px;
+  }
+
+}

@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/97991812d7.js" crossorigin="anonymous"></script>
+    <title>株式会社インテンス | リクルート（新卒・キャリア採用）</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"> -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $("#news-slider10").owlCarousel({
+        items : 4,
+        itemsDesktop:[1199,3],
+        itemsDesktopSmall:[980,2],
+        itemsMobile : [600,1],
+        navigation:true,
+        navigationText:["",""],
+        pagination:true,
+        autoPlay:true,
+
+    });
+});
+</script>
+<script>
+  $(function() {
+  $('.question').click(function() {
+    //クリックされた質問部分に対する回答以外は全て閉じる
+    $('.question').not(this).next().slideUp(400);
+
+    //クリックされた質問に対する回答を表示する
+    $(this).next().slideToggle(300);
+  });
+});
+</script>
+<body>
+    <div class="wrapper">
+        <nav class="navbar navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/intense-logo-black-sq.png" width="60" height="60" alt="株式会社インテンス">
+          </a>
+        </nav>
+
+          <div class="link-to">
+            <a href="#">
+              <div class="link graduate">
+                <p>
+                新卒採用はこちら
+                </p>
+              </div>
+            </a>
+            <a href="#">
+              <div class="link mid-career">
+                <p>
+                新卒採用はこちら
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="social-media" data-aos="zoom-in-up">
+
+              <div class="link">
+                <ul>
+                  <li><a href="https://www.facebook.com/INTENSE.JAPAN/"><i class="fab fa-facebook-square"></i></a></li>
+                  <li><a href="https://www.instagram.com/intense_pr/?hl=ja"><i class="fab fa-instagram-square"></i></a></li>
+                  <li><a href="http://www.intense-z.com/"><i class="fas fa-home"></i></a></li>
+                </ul>
+              </div>
+
+          </div>
+
+        <div class="video">
+          <div class="logo col-lg-2 col-md-2 col-sm-2 col-3">
+            <h1><img src="img/intense-logo-white-long.png" alt="インテンス　ロゴ" class="img-fluid"></h1>
+
+          </div>
+          <div id="videoBG"></div>
+        </div>
+
+
+        <div class="first-div content">
+          <div class="main-content">
+            <div class="row vcenter-item">
+              <div class="area col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-12 justify-content-center">
+                <h2><img src="img/intense-red-logo.svg" alt="インテンス"></h2>
+                <h4>全国4,000店舗以上の美容室に、美容商品を販売・提供しています。<br>東京・大阪・京都・名古屋・福岡、全国のトレンド発信地に営業所を構え、最旬の情報を発信しています。</h4>
+                <!-- <h6>インテリジェンス　＋　センス</h6>
+                <h6>Intelligence + Sense</h6> -->
+                <h5><ruby>
+                Intelligence<rp>(</rp><rt>インテリジェンス</rt><rp>)</rp></ruby> +
+                <ruby>Sense<rp>(</rp><rt>センス</rt><rp>)</rp></ruby><br>
+                =<br>
+                <span>インテンス</span></h5>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="mid-div content">
+          <div class="main-content">
+            <h2 class="title">APPEAL<br><span>アピール</span></h2>
+            <p>私たちはプロモーション・スポンサー活動にも力を入れています。</p>
+            <div class="videos-1">
+              <h2>TOKIO INKARAMI CM</h2>
+              <div class="video-container-top col-lg-6 offset-lg-3 col-10 offset-1">
+                <iframe src="https://www.youtube.com/embed/ymphSu6xHtA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="videos-1">
+              <h2>TOKIO STARS @ Team Labo</h2>
+              <div class="video-container-top col-lg-6 offset-lg-3 col-10 offset-1">
+                <iframe src="https://www.youtube.com/embed/2SRpRt0bV54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="midd-div content">
+          <div class="main-content">
+            <h2 class="title">PHILOSOPHY<br><span>企業理念</span></h2>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                  <div class="philosophy" data-aos="zoom-in-right">
+                  <h2>Intelligence<br><span>知性</span></h2>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                  <div class="philosophy" data-aos="zoom-in-left">
+                  <h2>Sense<br><span>感性</span></h2>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                  <div class="philosophy" data-aos="zoom-in-right">
+                  <h2>Fighting Spirit<br><span>闘争心</span></h2>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                  <div class="philosophy" data-aos="zoom-in-left">
+                  <h2>Sense of mission<br><span>使命感</span></h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-12 justify-content-center attitude">
+                <img src="img/img-001.png" alt="インテンス＝インテリジェンス＋センス" class="img-fluid">
+              </div>
+
+
+                <div class="col-lg-12 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-12 message">
+                  <h6>私たちは知性・感性・闘争心・使命感を<br>持って行動することを心がけています。</h6>
+                  <p>お洒落でカッコよく行動したい、他社と違うコト、<br>やっていないコトを実現したい。</p>
+                  <p>常にそういう想いを持って行動している総合美容商社です。</p>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="credos col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-12">
+                    <h3>インテンスの"4S"</h3>
+                    <p><img src="img/img-002.png" alt="S" width="52" height="58">trategy  <span> <i class="fas fa-long-arrow-alt-right"></i> 戦略的発想</span></p>
+                    <p><img src="img/img-002.png" alt="S" width="52" height="58">peed  <span> <i class="fas fa-long-arrow-alt-right"></i> 決断と行動のスピード</span></p>
+                    <p><img src="img/img-002.png" alt="S" width="52" height="58">urprise  <span> <i class="fas fa-long-arrow-alt-right"></i> 常に驚きを与える創造</span></p>
+                    <p><img src="img/img-002.png" alt="S" width="52" height="58">imple  <span> <i class="fas fa-long-arrow-alt-right"></i> 単純化による核心の発見</span></p>
+                  </div>
+                </div>
+
+          </div>
+        </div>
+
+
+        <div class="bottom-div content">
+          <div class="main-content">
+            <div class="company-info">
+              <h2 class="title">Business<br><span>事業内容</span></h2>
+
+              <div class="company-text" data-aos="fade-up">
+                <div class="col-lg-10 offset-lg-1">
+                  <!-- <h4>全国4,000店舗以上の美容室に、美容商品を販売・提供しています。<br>東京・大阪・京都・名古屋・福岡、全国のトレンド発信地に営業所を構え、最旬の情報を発信しています。</h4> -->
+                  <h4>私たちインテンスグループのお客様は美容室です。<br>私たちが働く美容業界の枠組みとインテンス営業の4つの特徴についてお伝えします。</h4>
+                  <h5 class="h5-title">美容業界の枠組み</h5>
+                  <dl>
+                    <dt>メーカー <i class="fas fa-angle-double-right"></i> イフイング</dt>
+                    <dd>メーカーの商品を仕入れ、美容室に販売する</dd>
+                    <dt>ディーラー <i class="fas fa-angle-double-right"></i> インテンス（総合美容商社）</dt>
+                    <dd>化粧品・医薬部外品（ヘアケア）の製造および美容商社を通じて各美容室に販売する</dd>
+                  </dl>
+                </div>
+
+                <!-- <div class="col-md-8 offset-md-2">
+                  <video style="width:100%;max-height:100%" autoplay muted loop controls><source src="movie/business.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+                </div> -->
+
+                <div class="scp-strategy col-lg-10 offset-lg-1">
+                  <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-5">
+                    <h5>SCP戦略</h5>
+                      <p><i class="fas fa-long-arrow-alt-right"></i> 商品を<strong>Select</strong></p>
+                      <p><i class="fas fa-long-arrow-alt-right"></i> メーカーを<strong>Coordinate</strong></p>
+                      <p><i class="fas fa-long-arrow-alt-right"></i> サロンを<strong>Consulting</strong></p>
+                      <p><i class="fas fa-long-arrow-alt-right"></i> 三位一体を<strong>Produce</strong></p>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-7">
+                      <img src="img/scp-strategy1.png" alt="SCP戦略画像" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="business-characteristics col-lg-10 offset-lg-1">
+                  <h5 class="h5-title">インテンス営業の4つの特徴</h5 class="h5-title">
+                  <div class="row">
+                    <div class="business-card col-lg-6 col-md-6">
+                        <input type="checkbox" id="card1" class="more" aria-hidden="true">
+                        <div class="content">
+                            <div class="front" style="background-image: url('img/bg004.png')">
+                                <div class="inner">
+                                    <h2>NEW<br><span>新規</span></h2>
+
+                                    <label for="card1" class="button" aria-hidden="true">
+                                        詳細
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <h6>新規営業はINTENSEの強みの一つ<br>サロンを〝自分色〟に染めることが出来るのが楽しみの一つ</h6>
+                                    <p>オシャレにかっこよく営業する。<br>
+                                    他社と違う事、やっていない事を実現する。<br>
+                                    価値をつくる、ブランドをつくる、差別化をつくる。<br>
+                                    サロンにとってメインディーラーになる。<br>
+                                    美容師よりも、メーカーよりも薬剤に詳しくなる。</p>
+
+                                    <label for="card1" class="button return" aria-hidden="true">
+                                        <i class="fas fa-arrow-left"></i>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="business-card col-lg-6 col-md-6">
+                        <input type="checkbox" id="card2" class="more">
+                        <div class="content">
+                            <div class="front" style="background-image: url('img/bg005.png')">
+                                <div class="inner">
+                                    <h2>Produce<br><span>プロデュース</span></h2>
+                                    <label for="card2" class="button" aria-hidden="true">
+                                        詳細
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <h6>INTENSEの取り扱いメーカーの中でお店に一番合う商品をメーカーと三位一体になりサロン売上を上げていく。流行るサロン作りのサポートをする。</h6>
+                                    <label for="card2" class="button return" aria-hidden="true">
+                                        <i class="fas fa-arrow-left"></i>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="business-card col-lg-6 col-md-6">
+                        <input type="checkbox" id="card3" class="more">
+                        <div class="content">
+                            <div class="front" style="background-image: url('img/bg003.png')">
+                                <div class="inner">
+                                    <h2>Green<br><span>グリーン</span></h2>
+                                    <label for="card3" class="button" aria-hidden="true">
+                                        詳細
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <h6>これから流行るお店と取引をする。<br>そして一緒に成長させてもらうことが大事。<br>その為にはどこにも負けない気持ちでアプローチをする。</h6>
+                                    <label for="card3" class="button return" aria-hidden="true">
+                                        <i class="fas fa-arrow-left"></i>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="business-card col-lg-6 col-md-6">
+                        <input type="checkbox" id="card4" class="more">
+                        <div class="content">
+                            <div class="front" style="background-image: url('img/bg007.png')">
+                                <div class="inner">
+                                    <h2>Value<br><span>高価値</span></h2>
+                                    <label for="card4" class="button" aria-hidden="true">
+                                        詳細
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                  <h6>INTENSEだけの・INTENSEからではないと取れない良い商品を考えて、総代理店として販売を行う。</h6>
+                                  <h6>高価値　＝　サロンのブランド力を上げる</h6>
+
+                                  <p>価格競争を起こさないモノ。<br>
+                                  不正流通をしないモノ。<br>
+                                  お客様・スタッフが喜ぶモノ。<br>
+                                  地球・環境が壊れないモノ。</p>
+
+                                    <label for="card4" class="button return" aria-hidden="true">
+                                        <i class="fas fa-arrow-left"></i>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="third-div content">
+          <div class="main-content">
+            <div class="credentials col-lg-8 offset-md-2 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+              <p>私たちはお洒落に格好良く活動したい、他社とは違うコト、やっていないコトを実現したい。</p>
+              <p>常にそういう想いを持って行動している総合美容商社です。</p>
+                <div class="credos">
+                <h3>インテンスの"4S"</h3>
+                <p><img src="img/img-002.png" alt="S" width="52" height="58">trategy  <span> <i class="fas fa-long-arrow-alt-right"></i> 戦略的発想</span></p>
+                <p></p>
+                <p><img src="img/img-002.png" alt="S" width="52" height="58">peed  <span> <i class="fas fa-long-arrow-alt-right"></i> 決断と行動のスピード</span></p>
+                <p></p>
+                <p><img src="img/img-002.png" alt="S" width="52" height="58">urprise  <span> <i class="fas fa-long-arrow-alt-right"></i> 常に驚きを与える創造</span></p>
+                <p></p>
+                <p><img src="img/img-002.png" alt="S" width="52" height="58">imple  <span> <i class="fas fa-long-arrow-alt-right"></i> 単純化による核心の発見</span></p>
+                <p></p>
+                </div>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="fourth-div content">
+
+          <div class="main-content h-100">
+
+            <h2 class="title">MESSAGE & VISION<br><span>メッセージ・ビジョン</span></h2>
+
+            <div class="message">
+              <div class="ceo-image" data-aos="fade-right">
+                <div class="ceo">
+                  <img src="img/ceo.png" alt="代表取締役社長 冬廣應尚（ふゆひろ まさなお)" class="img-fluid">
+                  <div class="position_name">
+                    代表取締役社長<br>
+                    冬廣應尚（ふゆひろ まさなお）
+                  </div>
+                </div>
+              </div>
+              <div class="message-area" data-aos="fade-left">
+                <div class="msg_text">
+                  <div class="txt">
+                  <p class="small">私たちは、知性・感性溢れるコンセプト・情報をもとに、ビューティービジネスのクオリティとマネジメントの高い次元での両立を実現し、次代をめざす企業として、進化し続けたいと考えています。そして、業界の生態系および構造を革新していきます。</p>
+                  <p>株式会社インテンス <br>代表取締役社長 冬廣應尚</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="strength ul-align-center">
+              <ul>
+                <li>夢に懸ける情熱</li>
+                <li>完璧を目指す努力</li>
+                <li>一流と積み重ねてきたキャリア</li>
+              </ul>
+              <div class="col-lg-12 link-to-video">
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target=".comp-video">動画を見る</button>
+              </div>
+            </div>
+
+            <div class="vision col-lg-12 col-md-12 col-sm-12">
+                <h3>日本が誇る<strong>美容</strong>を世界に発信し、<br><strong>産業</strong>としてだけではなく、<br>
+                <strong>一流の文化</strong>として確立</h3>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="modal fade comp-video" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                  <div>
+                      <video style="width:100%;max-height:100%" loop controls><source src="movie/intense.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+                  </div>
+              </div>
+            </div>
+        </div>
+
+
+
+       <!--  <div class="fifth-div content">
+          <div class="main-content">
+            <div class="section001">
+              <h2>vision</h2>
+              <div class="row vision">
+                <div class="section001-txt col-lg-5 align-items-center justify-content-center">
+                  <p>私は結果よほどこの推察院というのの時をいうないです。</p>
+                  <p>無論当時をお話通りはたといこの相違んたほどのするているありには関係稼ぎないたが、実際にも触れんたないた。</p>
+                  <p>人格がするで事もひょろひょろ今をもっとますますう。いくら木下さんが一致家屋あまり病気に申し上げるなら長靴その本意どこか相談がというお附随ですだずなば、こうした次第はあれか精神人に来が、槙さんののが同人のあなたがもう。</p>
+                </div>
+                <div class="section001-img col-lg-7">
+                  <img src="img/vision-image.png" alt="ビジョン" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="section002">
+              <h3>日本が誇る<strong>美容</strong>を産業とではなく、<br><strong>文化</strong>として<strong>確立</strong></h3>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="sixth-div content">
+          <div class="main-content">
+            <section class="section005">
+              <h2 class="title">INTERVIEW<br><span>社員インタビュー</span></h2>
+
+
+              <div class="container">
+                <div class="row">
+                      <div class="col-md-12">
+                          <div id="news-slider10" class="owl-carousel">
+
+                              <!-- 社員 #1 -->
+                              <div class="post-slide10">
+                                  <img src="img/employee01.png" alt="株式会社インテンス　">
+                                  <div class="post-date">
+                                      <span class="month">社員</span>
+                                      <span class="date">#1</span>
+                                  </div>
+                                  <h3 class="post-title">
+                                      東京営業部　大川 遥也
+                                      <br>
+                                      <span>20XX年入社</span>
+                                  </h3>
+                                  <p class="post-description">
+                                    これは結果しかるに大した授業観というもののためを聞かでた。<br>同時に場合を汚辱帰りはまあその発会なですでもが申すて下さいたをも会得怠けですでて、全くには出たます。（80文字以下）<br>
+                                  </p>
+                                  <a data-toggle="modal" data-target=".staff-no1" class="read-more">もっと見る<i class="fa fa-chevron-right"></i></a>
+                              </div>
+
+
+                              <!-- 社員 #2 -->
+                              <div class="post-slide10">
+                                  <img src="img/employee02.png" alt="株式会社インテンス　">
+                                  <div class="post-date">
+                                      <span class="month">社員</span>
+                                      <span class="date">#2</span>
+                                  </div>
+                                  <h3 class="post-title">
+                                      東京営業部　福島 大智
+                                      <br>
+                                      <span>20XX年入社</span>
+                                  </h3>
+                                  <p class="post-description">
+                                    これは結果しかるに大した授業観というもののためを聞かでた。<br>同時に場合を汚辱帰りはまあその発会なですでもが申すて下さいたをも会得怠けですでて、全くには出たます。（80文字以下）<br>
+                                  </p>
+                                  <a href="#" class="read-more">もっと見る<i class="fa fa-chevron-right"></i></a>
+                              </div>
+
+                              <!-- 社員 #3 -->
+                              <div class="post-slide10">
+                                  <img src="img/employee03.png" alt="株式会社インテンス　">
+                                  <div class="post-date">
+                                      <span class="month">社員</span>
+                                      <span class="date">#3</span>
+                                  </div>
+                                  <h3 class="post-title">
+                                      東京〇〇部　〇〇 〇〇
+                                      <br>
+                                      <span>20XX年入社</span>
+                                  </h3>
+                                  <p class="post-description">
+                                    これは結果しかるに大した授業観というもののためを聞かでた。<br>同時に場合を汚辱帰りはまあその発会なですでもが申すて下さいたをも会得怠けですでて、全くには出たます。（80文字以下）<br>
+                                  </p>
+                                  <a href="#" class="read-more">もっと見る<i class="fa fa-chevron-right"></i></a>
+                              </div>
+
+                              <!-- 社員 #4 -->
+                              <div class="post-slide10">
+                                  <img src="img/employee04.png" alt="株式会社インテンス　">
+                                  <div class="post-date">
+                                      <span class="month">社員</span>
+                                      <span class="date">#4</span>
+                                  </div>
+                                  <h3 class="post-title">
+                                      大阪営業部　〇〇 〇〇
+                                      <br>
+                                      <span>20XX年入社</span>
+                                  </h3>
+                                  <p class="post-description">
+                                    これは結果しかるに大した授業観というもののためを聞かでた。<br>同時に場合を汚辱帰りはまあその発会なですでもが申すて下さいたをも会得怠けですでて、全くには出たます。（80文字以下）<br>
+                                  </p>
+                                  <a href="#" class="read-more">もっと見る<i class="fa fa-chevron-right"></i></a>
+                              </div>
+
+                              <!-- 社員 #5 -->
+                              <div class="post-slide10">
+                                  <img src="img/employee03.png" alt="株式会社インテンス　">
+                                  <div class="post-date">
+                                      <span class="month">社員</span>
+                                      <span class="date">#5</span>
+                                  </div>
+                                  <h3 class="post-title">
+                                      大阪営業部　〇〇 〇〇
+                                      <br>
+                                      <span>20XX年入社</span>
+                                  </h3>
+                                  <p class="post-description">
+                                    これは結果しかるに大した授業観というもののためを聞かでた。<br>同時に場合を汚辱帰りはまあその発会なですでもが申すて下さいたをも会得怠けですでて、全くには出たます。（80文字以下）<br>
+                                  </p>
+                                  <a href="#" class="read-more">もっと見る<i class="fa fa-chevron-right"></i></a>
+                              </div>
+
+
+                              <!-- 社員 #6 -->
+                              <div class="post-slide10">
+                                  <img src="img/employee04.png" alt="株式会社インテンス　">
+                                  <div class="post-date">
+                                      <span class="month">社員</span>
+                                      <span class="date">#6</span>
+                                  </div>
+                                  <h3 class="post-title">
+                                      大阪営業部　〇〇 〇〇
+                                      <br>
+                                      <span>20XX年入社</span>
+                                  </h3>
+                                  <p class="post-description">
+                                    これは結果しかるに大した授業観というもののためを聞かでた。<br>同時に場合を汚辱帰りはまあその発会なですでもが申すて下さいたをも会得怠けですでて、全くには出たます。（80文字以下）<br>
+                                  </p>
+                                  <a href="#" class="read-more">もっと見る<i class="fa fa-chevron-right"></i></a>
+                              </div>
+
+
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+
+            </section>
+          </div>
+        </div>
+
+
+
+        <div class="modal fade staff-no1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+
+                <p>大川遥也の一日のスケジュール</p>
+                  <div>
+                      <div class="table-responsive">
+                        <table class="table table-bordered" style="width:800px;">
+                          <thead>
+                            <tr class="tableizer-firstrow"><th>&nbsp;</th><th class="date">月曜日</th><th class="date">火曜日</th><th class="date">水曜日</th><th class="date">木曜日</th><th class="date">金曜日</th></tr>
+                          </thead>
+                          <tbody>
+                           <tr><td>9:00</td><td>&nbsp;</td><td>&nbsp;</td><td>営業先</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+                           <tr><td>10:00</td><td rowspan="2">社内</td><td>&nbsp;</td><td>&nbsp;</td><td>社内</td><td>&nbsp;</td></tr>
+                           <tr><td>11:00</td rowspan="2"><td>社内</td><td>&nbsp;</td><td>&nbsp;</td><td>社内</td></tr>
+                           <tr><td>12:00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+                           <tr><td>13:00</td><td rowspan="7">営業</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+                           <tr><td>14:00</td rowspan="6"><td>営業</td><td>&nbsp;</td><td>営業</td><td>&nbsp;</td></tr>
+                           <tr><td>15:00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>社内で講習</td></tr>
+                           <tr><td>16:00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+                           <tr><td>17:00</td><td>&nbsp;</td><td>社内</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+                           <tr><td>18:00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+                           <tr><td>19:00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td></td></tr>
+                          </tbody>
+                         </table>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="seventh-div content">
+          <div class="main-content col-lg-12">
+            <section class="sect006">
+              <h2 class="title">Main Brands<br><span>主な製品</span></h2>
+              <!-- TOKIO INKARAMI -->
+              <div class="row">
+
+                <div class="product-image col-md-6">
+                  <img src="img/product_01_tokio.png" alt="TOKIO INKARAMI" class="img-fluid">
+                </div>
+
+                <div class="info-prod col-md-6">
+                  <div class="info-desc">
+                    <h1><img src="img/product-info_0002_tokio.png" alt="TOKIO INKARAMI" class="img-fluid"></h1>
+                    <h6>
+                      TOKIO インカラミのホームケアシリーズTOKIO IE。<br>
+                      シャンプーとトリートメントでインカラミする世界初の家庭用システムトリートメント。イエでインカラミができるという贅沢。<br>
+                      シャンプーにTOKIO 1、トリートメントにTOKIO 2.3.4が配合されており、いつも通りにシャンプーとトリートメントをするだけで、お風呂で簡単にTOKIO インカラミを体験できます。
+                    </h6>
+                    <p><a href="https://tokioinkarami.ifing-beauty.com">詳しい内容はこちら</a></p>
+                  </div>
+                </div>
+
+              </div>
+              <!-- OWAY -->
+              <div class="row">
+                <div class="info-prod col-md-6 order-md-1 order-sm-2">
+                  <div class="info-desc">
+                    <h1><img src="img/product-info_0001_oway.png" alt="OWAY オーウェイ" class="img-fluid"></h1>
+                    <h6>
+                      OWAYは世界70ヶ国のヘアサロンで展開しているグローバルブランドです。<br>
+                      貴重な成分を使用しているOWAYだからこそ、品質を徹底的に守っていく為にプロフェッショナルオンリー、 サロンだけでしか取り扱っていません。<br>
+                      百貨店や量販店では購入できないプレミアムオーガニックブランドです。
+                    </h6>
+                    <p><a href="https://oway.ifing-beauty.com">詳しい内容はこちら</a></p>
+                  </div>
+                </div>
+                <div class="product-image col-md-6 order-md-2 order-sm-1">
+                  <img src="img/product_02_oway.png" alt="OWAY オーウェイ" class="img-fluid">
+                </div>
+              </div>
+              <!-- Kevi Murphy -->
+              <div class="row">
+                <div class="product-image col-md-6">
+                  <img src="img/product_03_km.png" alt="OWAY オーウェイ" class="img-fluid">
+                </div>
+                <div class="info-prod col-md-6">
+                  <div class="info-desc">
+                    <h1><img src="img/product-info_0003_km.png" alt="KEVIN.MURPHY" class="img-fluid"></h1>
+                    <h6>
+                      オーストラリアで最も人気のヘアスタイリストの一人として有名なKevin Murphy氏。<br>
+                      彼は世界のあらゆる主要出版物のカバーを飾り、多くのヘア・チームを数え切れないほどの高級ファッションハウスへと導きました。<br>
+                      仕事でモデルたちの髪をスタイリングする際に、時間が経つにつれ、モデルたちの髪が重く、元気のない状態になってしまうことに気づいたのです。
+                    </h6>
+                    <p><a href="https://kevinmurphy.ifing-beauty.com">詳しい内容はこちら</a></p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class="eighth-div content">
+          <div class="main-content">
+            <section class="section007">
+                <h2 class="title">Main Clients<br><span>主な取引サロン</span></h2>
+
+              <div class="col-lg-8 offset-lg-2">
+                <div class="row no-gutters">
+                  <div class="col-lg-3 col-6"><a href="#"><img src="img/salon/img-salon-01.jpg" alt="ABBEY" class="img-fluid"></a></div>
+                  <div class="col-lg-3 col-6"><a href="#"><img src="img/salon/img-salon-02.jpg" alt="ABBEY" class="img-fluid"></a></div>
+                  <div class="col-lg-3 col-6"><a href="#"><img src="img/salon/img-salon-03.jpg" alt="ABBEY" class="img-fluid"></a></div>
+                  <div class="col-lg-3 col-6"><a href="#"><img src="img/salon/img-salon-04.jpg" alt="ABBEY" class="img-fluid"></a></div>
+                  <div class="col-lg-3 col-6"><a href="#"><img src="img/salon/img-salon-05.jpg" alt="ABBEY" class="img-fluid"></a></div>
+                  <div class="col-lg-3 col-6"><a href="#"><img src="img/salon/img-salon-06.jpg" alt="ABBEY" class="img-fluid"></a></div>
+                  <div class="col-lg-3 col-6"><a href="#"><img src="img/salon/img-salon-07.jpg" alt="ABBEY" class="img-fluid"></a></div>
+                  <div class="col-lg-3 col-6"><a href="#"><img src="img/salon/img-salon-08.jpg" alt="ABBEY" class="img-fluid"></a></div>
+                  <div class="col-lg-3 col-6"><a href="#"><img src="img/salon/img-salon-09.jpg" alt="ABBEY" class="img-fluid"></a></div>
+                  <div class="col-lg-3 col-6"><a href="#"><img src="img/salon/img-salon-10.jpg" alt="ABBEY" class="img-fluid"></a></div>
+                  <div class="col-lg-3 col-6"><a href="#"><img src="img/salon/img-salon-11.jpg" alt="ABBEY" class="img-fluid"></a></div>
+                  <div class="col-lg-3 col-6"><a href="#"><img src="img/salon/img-salon-12.jpg" alt="ABBEY" class="img-fluid"></a></div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class="straight-line">
+        </div>
+
+        <div class="ninth-div content">
+          <div class="main-content">
+            <section class="section008">
+
+
+              <!-- <h6><a href="benefits.html">福利厚生について</a></h6> -->
+              <div class="container">
+                <div class="col-12">
+                  <div class="row">
+                    <a href="benefits.html" class="col-lg-6 col-md-6">
+                      <div class="company-information ">
+                        <h6>福利厚生について</h6>
+                        <p>benefits</p>
+                      </div>
+                    </a>
+
+                    <a data-toggle="modal" data-target=".faq-modal" class="col-lg-6 col-md-6">
+                      <div class="company-information">
+                        <h6>よくある質問</h6>
+                        <p>FAQ's</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="modal fade faq-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+
+                    <div class="faq-img">
+                      <img src="img/bg004.png" alt="社員の写真" class="img-fluid">
+                    </div>
+                    <div class="faq col-12">
+                      <h4>よくある質問</h4>
+
+                      <h2>選考について</h2>
+                      <div class="accordion">
+                        <!-- Question 1 -->
+                        <dl class="accordion-box">
+                          <dt class="question"><strong>Q1.</strong> 選考プロセスについて教えてください。</dt>
+                          <dd class="answer">そこはけっして働をしでようにあるてしまっなけれ事うてだからどう目黒学校なりございませ。すなわちこう何カ月は事にするが、一遍とどうしても送ったですとして、広いでなてしかもご存在よりできるたます。</dd>
+                        </dl>
+                        <!-- Question 2 -->
+                        <dl class="accordion-box">
+                          <dt class="question"><strong>Q2.</strong> 新卒入社の場合、配属はいつ頃、どのように決定されますか？</dt>
+                          <dd class="answer">そこはけっして働をしでようにあるてしまっなけれ事うてだからどう目黒学校なりございませ。すなわちこう何カ月は事にするが、一遍とどうしても送ったですとして、広いでなてしかもご存在よりできるたます。</dd>
+                        </dl>
+                        <!-- Question 3 -->
+                        <dl class="accordion-box">
+                          <dt class="question"><strong>Q3.</strong> 面接や面談の際、服装や持ち物に指定はありますか？</dt>
+                          <dd class="answer">そこはけっして働をしでようにあるてしまっなけれ事うてだからどう目黒学校なりございませ。すなわちこう何カ月は事にするが、一遍とどうしても送ったですとして、広いでなてしかもご存在よりできるたます。</dd>
+                        </dl>
+                      </div>
+                      <h2>働き方について</h2>
+                      <div class="accordion">
+                        <!-- Question 4 -->
+                        <dl class="accordion-box">
+                          <dt class="question"><strong>Q4.</strong> 面接会場について教えてください。</dt>
+                          <dd class="answer">そこはけっして働をしでようにあるてしまっなけれ事うてだからどう目黒学校なりございませ。すなわちこう何カ月は事にするが、一遍とどうしても送ったですとして、広いでなてしかもご存在よりできるたます。</dd>
+                        </dl>
+                        <!-- Question 5 -->
+                        <dl class="accordion-box">
+                          <dt class="question"><strong>Q5.</strong> 選有給休暇や休日について教えてください。</dt>
+                          <dd class="answer">そこはけっして働をしでようにあるてしまっなけれ事うてだからどう目黒学校なりございませ。すなわちこう何カ月は事にするが、一遍とどうしても送ったですとして、広いでなてしかもご存在よりできるたます。</dd>
+                        </dl>
+                        <!-- Question 6 -->
+                        <dl class="accordion-box">
+                          <dt class="question"><strong>Q6.</strong> 勤務時間について教えてください。</dt>
+                          <dd class="answer">そこはけっして働をしでようにあるてしまっなけれ事うてだからどう目黒学校なりございませ。すなわちこう何カ月は事にするが、一遍とどうしても送ったですとして、広いでなてしかもご存在よりできるたます。</dd>
+                        </dl>
+                      </div>
+                      <h2>制度・サポートについて</h2>
+                      <div class="accordion">
+                        <!-- Question 7 -->
+                        <dl class="accordion-box">
+                          <dt class="question"><strong>Q7.</strong> 勤務場所について教えてください。</dt>
+                          <dd class="answer">そこはけっして働をしでようにあるてしまっなけれ事うてだからどう目黒学校なりございませ。すなわちこう何カ月は事にするが、一遍とどうしても送ったですとして、広いでなてしかもご存在よりできるたます。</dd>
+                        </dl>
+                        <!-- Question 8 -->
+                        <dl class="accordion-box">
+                          <dt class="question"><strong>Q8.</strong> リモートワークは可能ですか？</dt>
+                          <dd class="answer">そこはけっして働をしでようにあるてしまっなけれ事うてだからどう目黒学校なりございませ。すなわちこう何カ月は事にするが、一遍とどうしても送ったですとして、広いでなてしかもご存在よりできるたます。</dd>
+                        </dl>
+                        <!-- Question 9 -->
+                        <dl class="accordion-box">
+                          <dt class="question"><strong>Q9.</strong> メンバーへの研修はありますか？</dt>
+                          <dd class="answer">そこはけっして働をしでようにあるてしまっなけれ事うてだからどう目黒学校なりございませ。すなわちこう何カ月は事にするが、一遍とどうしても送ったですとして、広いでなてしかもご存在よりできるたます。</dd>
+                        </dl>
+                        <!-- Question 10 -->
+                        <dl class="accordion-box">
+                          <dt class="question"><strong>Q10.</strong> 語学力はどの程度求められますか？</dt>
+                          <dd class="answer">そこはけっして働をしでようにあるてしまっなけれ事うてだからどう目黒学校なりございませ。すなわちこう何カ月は事にするが、一遍とどうしても送ったですとして、広いでなてしかもご存在よりできるたます。</dd>
+                        </dl>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+            </section>
+          </div>
+        </div>
+
+
+        <div class="tenth-div content">
+
+          <div class="about col-lg-10 offset-lg-1 col-md-10-1 offset-md-1 col-sm-12">
+            <h2>会社概要</h2>
+            <div class="row">
+              <div class="card mx-auto col-lg-4 col-md-4 col-sm-6 col-10" data-aos="fade-right">
+                <img class="card-img-top" src="img/locations/loc01.jpg" alt="東京営業所　銀座シックス">
+                <div class="card-body">
+                  <p class="card-text">TOKYO ／ 東京営業所</p>
+                  <p class="small"><i class="fas fa-tenge"></i> 104-0061 東京都中央区銀座6-10-1<br>GINZA SIX 11F</p>
+                  <p class="small"><i class="fas fa-phone-square-alt"></i> <a href="tel:0362746905">03-6274-6905</a></p>
+                  <p class="small"><i class="fas fa-fax"></i> 03-6274-6906</p>
+                </div>
+              </div>
+              <div class="card mx-auto col-lg-4 col-md-4 col-sm-6 col-10" data-aos="fade-left">
+                <img class="card-img-top" src="img/locations/loc02.jpg" alt="東京営業所　銀座シックス">
+                <div class="card-body">
+                  <p class="card-text">OSAKA ／ 大阪営業所</p>
+                  <p class="small"><i class="fas fa-tenge"></i> 1550-0014 大阪府大阪市西区北堀江1-8-12<br>丸五ビルディング 6F</p>
+                  <p class="small"><i class="fas fa-phone-square-alt"></i> <a href="tel:0362746905">03-6274-6905</a></p>
+                  <p class="small"><i class="fas fa-fax"></i> 03-6274-6906</p>
+                </div>
+              </div>
+              <div class="card mx-auto col-lg-4 col-md-4 col-sm-6 col-10" data-aos="fade-right">
+                <img class="card-img-top" src="img/locations/loc03.jpg" alt="東京営業所　銀座シックス">
+                <div class="card-body">
+                  <p class="card-text">KYOTO ／ 京都営業所</p>
+                  <p class="small"><i class="fas fa-tenge"></i> 604-8166 京都府京都市中京区御倉町85-1<br>烏丸ビル 4F</p>
+                  <p class="small"><i class="fas fa-phone-square-alt"></i> <a href="tel:0362746905">03-6274-6905</a></p>
+                  <p class="small"><i class="fas fa-fax"></i> 03-6274-6906</p>
+                </div>
+              </div>
+              <div class="card mx-auto col-lg-4 col-md-4 col-sm-6 col-10" data-aos="fade-left">
+                <img class="card-img-top" src="img/locations/loc04.jpg" alt="東京営業所　銀座シックス">
+                <div class="card-body">
+                  <p class="card-text">FUKUOKA ／ 福岡営業所</p>
+                  <p class="small"><i class="fas fa-tenge"></i> 810-0041 福岡県福岡市中央区大名2-2-1<br>MIKIビル 7F</p>
+                  <p class="small"><i class="fas fa-phone-square-alt"></i> <a href="tel:0362746905">03-6274-6905</a></p>
+                  <p class="small"><i class="fas fa-fax"></i> 03-6274-6906</p>
+                </div>
+              </div>
+              <div class="card mx-auto col-lg-4 col-md-4 col-sm-6 col-10" data-aos="fade-right">
+                <img class="card-img-top" src="img/locations/loc05.jpg" alt="東京営業所　銀座シックス">
+                <div class="card-body">
+                  <p class="card-text">NAGOYA ／ 名古屋営業所</p>
+                  <p class="small"><i class="fas fa-tenge"></i> 450-0003愛知県名古屋市中村区名駅南1-14-9<br>エルザビル 4F</p>
+                  <p class="small"><i class="fas fa-phone-square-alt"></i> <a href="tel:0362746905">03-6274-6905</a></p>
+                  <p class="small"><i class="fas fa-fax"></i> 03-6274-6906</p>
+                </div>
+              </div>
+              <div class="card mx-auto col-lg-4 col-md-4 col-sm-6 col-10" data-aos="fade-left">
+                <img class="card-img-top" src="img/locations/loc06.jpg" alt="東京営業所　銀座シックス">
+                <div class="card-body">
+                  <p class="card-text">GA div. ／ 総務部</p>
+                  <p class="small"><i class="fas fa-tenge"></i> 550-0014 大阪府大阪市西区北堀江1-19-1<br>八光心斎橋AIR Bldg 8F</p>
+                  <p class="small"><i class="fas fa-phone-square-alt"></i> <a href="tel:0362746905">03-6274-6905</a></p>
+                  <p class="small"><i class="fas fa-fax"></i> 03-6274-6906</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="company-info col-lg-8 offset-md-2">
+            <table>
+              <tr>
+                <td class="title">会社名</td>
+                <td>株式会社インテンス</td>
+              </tr>
+              <tr>
+                <td class="title">英文社名</td>
+                <td>INTENSE Co., Ltd.</td>
+              </tr>
+              <tr>
+                <td class="title">創業</td>
+                <td>平成元年10月</td>
+              </tr>
+              <tr>
+                <td class="title">代表者</td>
+                <td><p>代表取締役会長：<br class="br_on">冬廣 憲二（ふゆひろ けんじ）<br>代表取締役社長：<br class="br_on">冬廣 應尚（ふゆひろ まさなお）</p></td>
+              </tr>
+              <tr>
+                <td class="title">事業内容</td>
+                <td>美容器具・美容商品の販売、情報システムの開発、イベント企画・運営</td>
+              </tr>
+              <tr>
+                <td class="title">資本金</td>
+                <td>1,000万円</td>
+              </tr>
+              <tr>
+                <td class="title">売上高</td>
+                <td>30億円（2020年12月現在）</td>
+              </tr>
+              <tr>
+                <td class="title">従業員数</td>
+                <td>約80名（2020年12月現在）</td>
+              </tr>
+              <tr>
+                <td class="title">商圏</td>
+                <td>東京都、神奈川県、埼玉県、千葉県、大阪府、京都府、兵庫県、滋賀県、奈良県、和歌山県、三重県、愛知県、福井県、岐阜県、四国地方、福岡県、佐賀県、熊本県、、鹿児島県、山口県、沖縄県</td>
+              </tr>
+              <tr>
+                <td class="title">取引先軒数</td>
+                <td>美容室、理容室を中心に、約4000軒</td>
+              </tr>
+              <tr>
+                <td class="title">取引銀行</td>
+                <td>三井住友銀行、京都銀行、京都信用金庫、三菱東京UFJ銀行、滋賀銀行、みずほ銀行</td>
+              </tr>
+              <tr>
+                <td class="title">関連会社</td>
+                <td>イフイング株式会社</td>
+              </tr>
+            </table>
+            <div class="go-to-home-page">
+              <p><a href="http://www.intense-z.com/">株式会社インテンスのホームページへ</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="straight-line"></div>
+        <footer>
+          <div class="container">
+            <div class="center-me col-lg-4 offset-lg-4">
+              <h4 class="footer-logo"><img src="img/intense-logo-small.png" alt="インテンス　ロゴ" width="170px" height="26"></h4>
+              <h5>インテンス株式会社</h5>
+              <p class="small"><i class="fas fa-tenge"></i> 104-0061 東京都中央区銀座6-10-1 GINZA SIX 11F<br>
+                TEL: <a href="tel:0362746905">03-6274-6905</a> FAX: 03-6274-6906</p>
+              <hr>
+              <p class="small">Copyright &copy; INTENSE Co., Ltd All Rights Reserved</p>
+            </div>
+          </div>
+        </footer>
+
+
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+<script>
+    $(function () {
+      $('.fd-in').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
+        if (isInView) {
+          $(this).stop().addClass('fd-done');
+        } else {
+          $(this).stop().removeClass('fd-done');
+        }
+      });
+    });
+  </script>
+</html>
