@@ -1075,7 +1075,7 @@ footer .center-me p a {
 @media (max-width: 575.98px) {
   .first-div h4 {
     font-size:1.25em;
-    padding:20px;
+    padding:20pxm;
 }
 
   .link-to {
@@ -1177,6 +1177,13 @@ footer .center-me p a {
     z-index: 999;
   }
 
+  .main-content .message .message-area .msg_text .txt {
+
+  padding:10px 30px;
+  margin:10px;
+  /*box-shadow:10px 8px 6px rgba(0,0,0,0.16);*/
+}
+
 
 
   .main-content .message .ceo .position_name {
@@ -1274,6 +1281,12 @@ footer .center-me p a {
     line-height:1.5em;
   }
 
+}
+
+@media (max-width:375px) {
+  .main-content .message .message-area .msg_text {
+    bottom:-350px;
+  }
 }
 
 
