@@ -648,6 +648,7 @@ footer .center-me p a {
   padding:30px 20px;
   text-align: center;
   color:rgb(255,255,255);
+  font-weight:bold;
 }
 
 .link-to .link {
@@ -1093,7 +1094,7 @@ footer .center-me p a {
 
   .link-to {
     width:100%;
-    max-width:170px;
+    max-width:180px;
     top:50px;
   }
 
