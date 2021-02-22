@@ -428,10 +428,7 @@ footer .center-me p a {
   text-align: center;
 }
 
-.midd-div .main-content .credos p {
-  width:70%;
-  margin:0 auto;
-}
+
 
 
 /*midd-div*/
@@ -1096,14 +1093,14 @@ footer .center-me p a {
 
   .link-to {
     width:100%;
-    max-width:180px;
+    max-width:170px;
     top:50px;
   }
 
   .link-to .mid-career p, .link-to .graduate p {
     padding: 10px 15px;
     text-align: center;
-    font-size:13px;
+    font-size:14px;
     color: rgb(255,255,255);
   }
 
