@@ -428,8 +428,12 @@ footer .center-me p a {
   text-align: center;
 }
 
-.midd-div .main-content table td.tbl-txt {
+.midd-div .main-content .credos table td.tbl-txt {
   padding-left:10px;
+}
+
+.midd-div .main-content .credos table {
+  margin:0 auto;
 }
 
 
