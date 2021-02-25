@@ -145,11 +145,11 @@ body {
 }
 
 .midd-div {
-  /*background:url('../img/bg003.png') no-repeat center center;*/
+  background:url('../img/bg011.png') no-repeat center center;
   /*background: rgb(73,182,226);
 background: linear-gradient(32deg, rgba(73,182,226,1) 0%, rgba(113,140,162,1) 100%);*/
-background: rgb(73,153,226);
-background: linear-gradient(32deg, rgba(73,153,226,1) 0%, rgba(200,223,241,1) 100%);
+/*background: rgb(73,153,226);
+background: linear-gradient(32deg, rgba(73,153,226,1) 0%, rgba(200,223,241,1) 100%);*/
 }
 
 .bottom-div {
