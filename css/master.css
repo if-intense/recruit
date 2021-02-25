@@ -126,7 +126,7 @@ body {
 }
 
 .first-div {
-  background:url('../img/bg009-1.jpg') no-repeat center center;
+  background:url('../img/bg010.jpg') no-repeat center center;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -380,7 +380,7 @@ footer .center-me p a {
 }
 
 .midd-div .main-content .philosophy h2{
-  font-size:44px;
+  font-size:40px;
   font-weight:bold;
   line-height:0.8em;
   /*font-style:italic;*/
@@ -506,8 +506,10 @@ footer .center-me p a {
   margin:3vh 0 2vh;
   padding-bottom:3px;
   border-bottom:3px double black;
+}
 
-
+.dldt-width {
+  width:120px;
 }
 
 .main-content .company-info .company-text p strong {
@@ -573,6 +575,10 @@ footer .center-me p a {
   padding:60px 30px;
   margin:20px;
   box-shadow:10px 8px 6px rgba(0,0,0,0.16);
+}
+
+.main-content .message .message-area .msg_text .txt .smaller {
+  font-size:0.7em;
 }
 
 .main-content .strength {
@@ -1435,6 +1441,9 @@ footer .center-me p a {
    transform-style: preserve-3d;
    border-radius: 6px;
 }
+
+
+
  .front .inner, .back .inner {
    height: 100%;
    display: grid;
@@ -1484,6 +1493,7 @@ footer .center-me p a {
 }
  .back .inner {
    justify-items: center;
+   background-color: white;
 }
 
 .back .inner h6 {
@@ -1493,6 +1503,8 @@ footer .center-me p a {
 .back .inner p {
   font-size:0.8em;
 }
+
+
 
  .back .button {
    justify-self: center;
