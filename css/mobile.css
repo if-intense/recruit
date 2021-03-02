@@ -11,3 +11,9 @@
   }
 
 }
+
+@media (max-width:375px) {
+  .midd-div .main-content .credos table {
+    font-size:0.75em;
+}
+}

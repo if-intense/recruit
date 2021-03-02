@@ -1047,6 +1047,60 @@ footer .center-me p a {
 
 
 
+/* About Staff*/
+
+a .post-slide:hover {
+  cursor: grab;
+}
+
+  .staff-interview .modal-body {
+    padding:30px 10px;
+  }
+
+  .staff-interview .modal-body .questions {
+    width:95%;
+    margin:3vh auto;
+  }
+
+  .staff-interview .modal-body .questions h6 span {
+    padding-right:10px;
+    font-size:1em;
+  }
+
+  .staff-interview .modal-body .questions h6 {
+    font-weight:bold;
+  }
+
+  .staff-interview .modal-body .questions p {
+    font-size:0.9em;
+    padding-left:10px;
+    line-height:1.5em;
+  }
+
+  .table-responsive table {
+    width:1000px;
+    font-size:0.8em;
+    text-align:center;
+  }
+
+  .tableizer-firstrow {
+    background:rgb(207,18,37);
+    color:rgb(255,255,255);
+    text-shadow:1px 1px 3px #9a9a9a;
+  }
+
+  .table-responsive table .date {
+    width:calc(100%/6);
+    max-width:200px;
+  }
+
+  .table-responsive table .time {
+    font-weight:bold;
+  }
+
+/*End of Staff Section*/
+
+
 /* Accordion Answers*/
 .accordion {
   max-width: 100%;
@@ -1257,6 +1311,22 @@ footer .center-me p a {
     margin:0 20px;
   }
 
+
+  .staff-interview .modal-body .questions h6 span {
+    padding-right:10px;
+    font-size:16px;
+  }
+
+  .staff-interview .modal-body .questions h6 {
+    font-weight:bold;
+  }
+
+  .staff-interview .modal-body .questions p {
+    font-size:0.75em;
+    padding-left:10px;
+    line-height:1.5em;
+  }
+
 }
 
 
@@ -1293,7 +1363,11 @@ footer .center-me p a {
   }
 
   .midd-div .main-content .philosophy h2 {
-    font-size: 30px;
+    font-size: 28px;
+  }
+
+  .midd-div .main-content .philosophy h2 span {
+    font-size:0.6em;
   }
 
   .midd-div .main-content .message h6 {
@@ -1345,43 +1419,6 @@ footer .center-me p a {
 }
 
 
-
-/* About Staff*/
-
-  .staff-interview .modal-body {
-    padding:30px 10px;
-  }
-
-  .staff-interview .modal-body .questions {
-    width:95%;
-    margin:3vh auto;
-  }
-
-  .staff-interview .modal-body .questions h6 span {
-    padding-right:10px;
-    font-size:1.25em;
-  }
-
-  .staff-interview .modal-body .questions h6 {
-    font-weight:bold;
-  }
-
-  .table-responsive table {
-    width:1000px;
-  }
-
-  .tableizer-firstrow {
-    background:grey;
-  }
-
-  .table-responsive table .date {
-    width:calc(100%/6);
-    max-width:200px;
-  }
-
-  .table-responsive table .time {
-    width:100px;
-  }
 
 
 
