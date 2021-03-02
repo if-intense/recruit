@@ -312,6 +312,7 @@ footer .center-me p a {
   padding:3vh 0;
   /*font-style: italic;*/
   text-align:center;
+  font-size:1.25em;
 }
 .video-container-top {
     overflow: hidden;
@@ -427,6 +428,8 @@ footer .center-me p a {
 
 .midd-div .main-content .credos h3{
   text-align: center;
+  font-weight:normal;
+  font-size:1.25em;
 }
 
 .midd-div .main-content .credos table td.tbl-txt {
@@ -578,7 +581,7 @@ footer .center-me p a {
 }
 
 .main-content .message .message-area .msg_text .txt .smaller {
-  font-size:0.7em;
+  font-size:0.9em;
 }
 
 .main-content .strength {
@@ -1170,6 +1173,7 @@ a .post-slide:hover {
   .first-div h4 {
     font-size:1.25em;
     padding:20px;
+    line-height: 2em;
 }
 
   .link-to {
@@ -1222,6 +1226,10 @@ a .post-slide:hover {
     position: relative;
   }
 
+  .midd-div .main-content .philosophy {
+    margin:2vh 20px;
+  }
+
   .midd-div .main-content .philosophy h2 {
     font-size: 36px;
   }
@@ -1271,8 +1279,12 @@ a .post-slide:hover {
     z-index: 999;
   }
 
+  .main-content .message .message-area .msg_text .txt .smaller {
+  font-size:0.8em;
+}
+
   .main-content .message .message-area .msg_text .txt {
-    padding:10px 30px;
+    padding:20px 30px;
     margin:10px;
   /*box-shadow:10px 8px 6px rgba(0,0,0,0.16);*/
 }
@@ -1298,7 +1310,7 @@ a .post-slide:hover {
   }
 
   .main-content .strength ul li {
-    font-size:1.25em;
+    font-size:20px;
     margin-left:-50px;
     font-weight:bold;
   }
@@ -1319,6 +1331,7 @@ a .post-slide:hover {
 
   .staff-interview .modal-body .questions h6 {
     font-weight:bold;
+    font-size:20px;
   }
 
   .staff-interview .modal-body .questions p {
