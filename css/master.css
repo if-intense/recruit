@@ -1,5 +1,10 @@
 html, body {
   overflow-x: hidden;
+  /*overflow-y: hidden;*/
+}
+
+html {
+  height:100%;
 }
 
 
@@ -38,7 +43,7 @@ body {
 
 #videoBG {
   padding-top: 51.04%;
-  background:url('../img/top-img.png');
+  background:url('../img/top-img.png') no-repeat;
   background-size: cover;
   background-position: center;
   position:relative;
@@ -118,7 +123,7 @@ body {
   /*background: rgb(40,40,40);
   background: linear-gradient(180deg, rgba(124,128,132,1) 0%, rgba(40,40,40,1) 100%);*/
   background: rgb(40,40,40);
-background: linear-gradient(180deg, rgba(40,40,40,1) 0%, rgba(124,128,132,1) 100%);
+background: linear-gradient(180deg, rgba(25,25,25,1) 0%, rgba(70,70,70,1) 100%);
 /*background: linear-gradient(32deg, rgba(73,182,226,1) 0%, rgba(113,140,162,1) 100%);*/
 /*background: rgb(73,153,226);
 background: linear-gradient(32deg, rgba(73,153,226,1) 0%, rgba(200,223,241,1) 100%);*/
@@ -152,7 +157,7 @@ background: linear-gradient(32deg, rgba(73,153,226,1) 0%, rgba(200,223,241,1) 10
 
 .sixth-div {
   /*background: url('../img/bg006.png') no-repeat center center;*/
-  background: linear-gradient(180deg, rgba(226,226,226,1) 0%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
   /*padding-bottom:20vh;*/
 }
 
@@ -162,8 +167,8 @@ background: linear-gradient(32deg, rgba(73,153,226,1) 0%, rgba(200,223,241,1) 10
 }
 
 .eighth-div {
-  background: rgb(98,98,98);
-  background: linear-gradient(50deg, rgba(98,98,98,0.5284488795518207) 0%, rgba(255,255,255,0.4948354341736695) 100%);
+   background: rgb(40,40,40);
+background: linear-gradient(180deg, rgba(25,25,25,1) 0%, rgba(90,90,90,1) 100%);
 }
 
 footer {
@@ -314,6 +319,10 @@ footer .center-me p a {
 .midd-div .main-content h2.title {
   color: rgb(255,255,255);
   margin-top:8vh;
+}
+
+.eighth-div .section007 h2.title {
+  color:rgb(255,255,255);
 }
 
 
@@ -655,8 +664,8 @@ footer .center-me p a {
 }
 
 .link-to .mid-career {
-  background: rgb(255,82,1);
-  background: linear-gradient(238deg, rgba(89,88,88,1) 0%, rgba(66,66,66,1) 100%);
+  background: rgb(47,11,104);
+  background: linear-gradient(238deg, rgba(74,18,163,1) 0%, rgba(47,11,104,1) 100%);
 }
 
 .link-to .graduate {
@@ -1146,7 +1155,7 @@ a .post-slide:hover {
 
 @media (max-width: 575.98px) {
   .first-div h4 {
-    font-size:1.25em;
+    font-size:1em;
     padding:20px;
     line-height: 2em;
 }
