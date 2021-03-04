@@ -114,18 +114,23 @@ body {
 }
 
 .midd-div {
-  background:url('../img/bg011.png') no-repeat center center;
-  /*background: rgb(73,182,226);
-background: linear-gradient(32deg, rgba(73,182,226,1) 0%, rgba(113,140,162,1) 100%);*/
+  /*background:url('../img/bg011.png') no-repeat center center;*/
+  /*background: rgb(40,40,40);
+  background: linear-gradient(180deg, rgba(124,128,132,1) 0%, rgba(40,40,40,1) 100%);*/
+  background: rgb(40,40,40);
+background: linear-gradient(180deg, rgba(40,40,40,1) 0%, rgba(124,128,132,1) 100%);
+/*background: linear-gradient(32deg, rgba(73,182,226,1) 0%, rgba(113,140,162,1) 100%);*/
 /*background: rgb(73,153,226);
 background: linear-gradient(32deg, rgba(73,153,226,1) 0%, rgba(200,223,241,1) 100%);*/
 }
 
 .bottom-div {
-  background:url('../img/bg005.png') no-repeat;
-  /*background:blue;*/
+  /*background:url('../img/bg005.png') no-repeat;*/
+  /*background:rgb(124,128,132);*/
+  background: rgb(190,190,190);
+/*background: linear-gradient(180deg, rgba(124,128,124,1) 0%, rgba(100,100,100,1) 100%);*/
   /*object-fit: cover;*/
-  background-size: cover;
+  /*background-size: cover;*/
   /*z-index:7;*/
 }
 
@@ -135,8 +140,9 @@ background: linear-gradient(32deg, rgba(73,153,226,1) 0%, rgba(200,223,241,1) 10
 
 
 .fourth-div {
-  background: url('../img/bg003.png') no-repeat center center;
-  background-size:cover;
+  /*background: url('../img/bg003.png') no-repeat center center;
+  background-size:cover;*/
+  background:rgb(211,211,211);
 }
 
 .fifth-div {
@@ -305,6 +311,12 @@ footer .center-me p a {
   text-transform: uppercase;
 }
 
+.midd-div .main-content h2.title {
+  color: rgb(255,255,255);
+  margin-top:8vh;
+}
+
+
 .fourth-div .main-content h2.title span,
 .mid-div .main-content h2.title span,
 .midd-div .main-content h2.title span,
@@ -363,6 +375,11 @@ footer .center-me p a {
 .midd-div .main-content .message h6 {
   font-size:1.5em;
   margin:2vh auto;
+  color:rgb(255,255,255);
+}
+
+.midd-div .main-content .message p {
+  color:rgb(255,255,255);
 }
 
 .midd-div .main-content .credos {
@@ -520,7 +537,7 @@ footer .center-me p a {
 
 .main-content .message .message-area .msg_text .txt {
   background:rgb(255,255,255);
-  padding:60px 30px;
+  padding:40px 30px;
   margin:20px;
   box-shadow:10px 8px 6px rgba(0,0,0,0.16);
 }
@@ -639,12 +656,12 @@ footer .center-me p a {
 
 .link-to .mid-career {
   background: rgb(255,82,1);
-  background: linear-gradient(238deg, rgba(246,176,143,1) 0%, rgba(251,82,1,1) 100%);
+  background: linear-gradient(238deg, rgba(89,88,88,1) 0%, rgba(66,66,66,1) 100%);
 }
 
 .link-to .graduate {
-  background: rgb(73,182,226);
-  background: linear-gradient(238deg, rgba(73,182,226,1) 0%, rgba(3,101,179,1) 100%);
+  background: rgb(207,18,37);
+  background: linear-gradient(238deg, rgba(255,54,74,1) 0%, rgba(207,18,37,1) 100%);
 }
 
 .link-to .mid-career:hover, .link-to .graduate:hover {
