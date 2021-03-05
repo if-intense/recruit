@@ -162,7 +162,7 @@ background: linear-gradient(32deg, rgba(73,153,226,1) 0%, rgba(200,223,241,1) 10
 }
 
 .seventh-div {
-  background: url('../img/tile-bg.png') no-repeat center center;
+  background: url('../img/tile-bg.png') repeat center center;
   /*background-size:100%;*/
 }
 

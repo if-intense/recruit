@@ -29,3 +29,22 @@
     background-size: cover;
     -o-background-size: cover;
   }
+
+
+  .benefits .title {
+    margin-top:3vh;
+    margin-bottom:3vh;
+
+  }
+
+  .benefits .title h2 {
+    font-size:2em;
+    text-align: center;
+  }
+
+  .benefits h2 span {
+    font-size:0.6em;
+    line-height:0.8em;
+    text-align:center;
+    text-transform: uppercase;
+  }
