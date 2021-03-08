@@ -63,7 +63,9 @@ body {
 }
 
 .first-div {
-  height:70vh;
+  /* height:70vh; */
+  padding-bottom:20vh;
+  padding-top:10vh;
 }
 
 .mid-div, .midd-div, .bottom-div, .fourth-div, .fifth-div, .sixth-div {
@@ -1557,11 +1559,15 @@ a .post-slide:hover {
 }
 
 .back .inner h6 {
-  font-size:0.9em;
+  font-size:0.8em;
 }
 
 .back .inner p {
   font-size:0.8em;
+}
+
+.back .inner p span {
+  font-size:0.7em;
 }
 
 
