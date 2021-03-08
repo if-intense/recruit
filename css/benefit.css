@@ -48,3 +48,19 @@
     text-align:center;
     text-transform: uppercase;
   }
+
+  .about-seminar {
+    text-align: center;
+    margin:3vh auto;
+  }
+
+  .about-seminar h3{
+    font-size:1.25em;
+  }
+@media (max-width: 575.98px) {
+
+  .jumbotron h1 {
+    font-size:1.75em;
+  }
+
+}

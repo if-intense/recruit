@@ -895,6 +895,7 @@ footer .center-me p a {
 .section007 p {
   text-align:center;
   margin:4vh;
+  color:rgb(255,255,255);
 }
 
 /*ninth content*/
@@ -1114,12 +1115,30 @@ a .post-slide:hover {
 
 .answer {
   display: none;
-  padding-top: 20px;
-  padding-bottom:20px;
-  font-size: 12px;
+  padding: 20px;
+  /* padding-bottom:20px; */
+  /* font-size: 12px; */
   background: #fff;
   position: relative;
   /*border-bottom:1px solid rgb(112,112,112);*/
+}
+
+.answer ul {
+  list-style: none;
+  margin-left:-20px;
+}
+
+.answer h6 {
+  font-size:1em;
+}
+
+.answer p {
+  font-size:0.9em;
+}
+
+.answer h5 {
+  font-size:0.9em;
+  text-decoration: underline;
 }
 
 
